@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="C++Udemy" Database="" Version="10000">
-  <Project Name="8_StatementsOperators" Path="StatementsOperators_S8/StatementsOperators_S8.project" Active="Yes"/>
+  <Project Name="8_StatementsOperators" Path="StatementsOperators_S8/StatementsOperators_S8.project" Active="No"/>
   <Project Name="Project1" Path="Project1/Project1.project" Active="No"/>
   <Project Name="Project2" Path="Project2/Project2.project" Active="No"/>
   <Project Name="Section6_C++Udemy" Path="Section6_C++Udemy/Section6_C++Udemy.project" Active="No"/>
   <Project Name="VectorsArrays_S7" Path="VectorsArrays_S7/VectorsArrays_S7.project" Active="No"/>
+  <Project Name="9_ControllingProgramFlow" Path="9_ControllingProgramFlow/9_ControllingProgramFlow.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="Project2" ConfigName="Debug"/>
       <Project Name="6_VariablesConstants" ConfigName="Debug"/>
       <Project Name="7_ArraysVectors" ConfigName="Debug"/>
+      <Project Name="9_ControllingProgramFlow" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="Project2" ConfigName="Release"/>
       <Project Name="6_VariablesConstants" ConfigName="Release"/>
       <Project Name="7_ArraysVectors" ConfigName="Release"/>
+      <Project Name="9_ControllingProgramFlow" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
