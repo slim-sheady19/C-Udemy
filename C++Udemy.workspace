@@ -5,7 +5,8 @@
   <Project Name="Project2" Path="Project2/Project2.project" Active="No"/>
   <Project Name="Section6_C++Udemy" Path="Section6_C++Udemy/Section6_C++Udemy.project" Active="No"/>
   <Project Name="VectorsArrays_S7" Path="VectorsArrays_S7/VectorsArrays_S7.project" Active="No"/>
-  <Project Name="9_ControllingProgramFlow" Path="9_ControllingProgramFlow/9_ControllingProgramFlow.project" Active="Yes"/>
+  <Project Name="9_ControllingProgramFlow" Path="9_ControllingProgramFlow/9_ControllingProgramFlow.project" Active="No"/>
+  <Project Name="10_CharactersStrings" Path="10_CharactersStrings/10_CharactersStrings.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -15,6 +16,7 @@
       <Project Name="6_VariablesConstants" ConfigName="Debug"/>
       <Project Name="7_ArraysVectors" ConfigName="Debug"/>
       <Project Name="9_ControllingProgramFlow" ConfigName="Debug"/>
+      <Project Name="10_CharactersStrings" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -24,6 +26,7 @@
       <Project Name="6_VariablesConstants" ConfigName="Release"/>
       <Project Name="7_ArraysVectors" ConfigName="Release"/>
       <Project Name="9_ControllingProgramFlow" ConfigName="Release"/>
+      <Project Name="10_CharactersStrings" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
