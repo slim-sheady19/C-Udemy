@@ -7,7 +7,9 @@
   <Project Name="VectorsArrays_S7" Path="VectorsArrays_S7/VectorsArrays_S7.project" Active="No"/>
   <Project Name="9_ControllingProgramFlow" Path="9_ControllingProgramFlow/9_ControllingProgramFlow.project" Active="No"/>
   <Project Name="10_CharactersStrings" Path="10_CharactersStrings/10_CharactersStrings.project" Active="No"/>
-  <Project Name="11_Functions" Path="11_Functions/11_Functions.project" Active="Yes"/>
+  <Project Name="11_Functions" Path="11_Functions/11_Functions.project" Active="No"/>
+  <Project Name="12_PointersReferences" Path="12_PointersReferences/12_PointersReferences.project" Active="No"/>
+  <Project Name="13_OOP" Path="13_OOP/13_OOP.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -19,6 +21,8 @@
       <Project Name="9_ControllingProgramFlow" ConfigName="Debug"/>
       <Project Name="10_CharactersStrings" ConfigName="Debug"/>
       <Project Name="11_Functions" ConfigName="Debug"/>
+      <Project Name="12_PointersReferences" ConfigName="Debug"/>
+      <Project Name="13_OOP" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -30,6 +34,8 @@
       <Project Name="9_ControllingProgramFlow" ConfigName="Release"/>
       <Project Name="10_CharactersStrings" ConfigName="Release"/>
       <Project Name="11_Functions" ConfigName="Release"/>
+      <Project Name="12_PointersReferences" ConfigName="Release"/>
+      <Project Name="13_OOP" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
