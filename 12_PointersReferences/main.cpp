@@ -1,31 +1,55 @@
 #include <iostream>
 using namespace std;
 
-void print(const int *const arr, const size_t size)
-{
+
+// CHALLENGE: TAKE TWO ARRAYS, MULTIPLY EACH ELEMENT IN ONE BY THE OTHER, AND STORE EACH VALUE IN A NEW ARRAY
+
+
+
+void print(const int *const arr, size_t size) // here the print function expects a CONSTANT POINTER TO A CONSTANT INT
+{												//what this means is WE DO NOT WANT EITHER THE POINTER OR THE INT CHANGED BY THE FUNCTION since all we are doing is printing
 	for (size_t i{0}; i < size; ++i)
 	{
-		cout << arr[i] << endl;
+		cout << arr[i] << endl;					//arr[i] is pointer-subscript notation
 	}
 }
-
-int *apply_all(const int *arr1, const int size1, const int *arr2, const int size2)
+/*This function dynamically loops through each element of arr2 and multiplies it across all the elements of arr1 and each product is 
+ * stored in the newly created array and returns a pointer to an integer */
+int *apply_all(const int *const arr1, size_t size1, const int *const arr2, size_t size2) //expects arr1 which is const pointer to const int, etc
 {
-	for (i{0}; i < size2; )
+	int *new_array{}; //create null pointer that will point to new array on heap. THIS IS INITIALIZATION !!!
+	
+	new_array = new int[size1 * size2]; //here the new array of 15 ints is created on heap and assigned to new_array pointer. DO NOT USE * HERE TO DEREFERNCE
+	
+	int position {0};					//initialize new int position to 0
+	for (size_t i{0}; i < size2; ++i) //OUTER LOOP ONLY ITERATES AFTER FULL INNER LOOP EXECUTES FULLY, IN OTHER WORDS ONLY HERE i INCREMENTS
+	{
+		for (size_t j{0}; j < size1; ++j) //THIS LOOP WILL EXECUTE SIZE1 TIMES. i REMAINS THE SAME IN FUNCTION BODY FOR THIS LOOP
+		{
+			new_array[position] = arr1[j] * arr2[i]; //each product of elements arr1 x arr2 is assigned to new_array element indexed as [position]
+			++position;									//position gets incremented before restarting loop.
+		}												//INNER LOOP ONLY EXITS ONCE IT HAS GONE THROUGH ALL OF SIZE1 ELEMENTS
+	}
+	return new_array; //RETURN ADDDRESS OF 0TH ELEMENT IN ARRAY
 }
 
 int main()
 {
-	const array1_size{5};
-	int array2_size{3};
-	int array3_size{array1_size*array2_size};
+	const size_t array1_size{5}; // 1. USE size_t FOR ARRAY LENGTHS
+	const size_t array2_size{3};
 	
-	int array1[] {1,2,3,4,5};
-	int array2[] {10,20,30};
+	const int array1[] {1,2,3,4,5};
+	const int array2[] {10,20,30};
 	
-	print(array1, array1_size);
+	print(array1, array1_size); //2. here we are calling print function with array1 as an argument which functions as ADDRESS OF its 0th element
 	print(array2, array2_size);
 	
+	int *results = apply_all(array1, array1_size, array2, array2_size); //initialize a pointer to an int called results which is returned by this function call
+	constexpr size_t results_size {array1_size * array2_size}; 		//create variable called results size to find size of newly created array
+	
+	print(results, results_size);
+	
+	delete [] results;
 	
 }
 

@@ -4,50 +4,36 @@
   <wxString Value="C:\Users\shea\Documents\programming_work\C++Udemy\C++Udemy.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\shea\Documents\programming_work\C++Udemy\13_OOP\main.cpp" Name="FileName"/>
-      <int Value="45" Name="FirstVisibleLine"/>
-      <int Value="54" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\shea\Documents\programming_work\C++Udemy\13_OOP\Movies.cpp" Name="FileName"/>
-      <int Value="70" Name="FirstVisibleLine"/>
-      <int Value="90" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\shea\Documents\programming_work\C++Udemy\13_OOP\Movies.h" Name="FileName"/>
-      <int Value="6" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\shea\Documents\programming_work\C++Udemy\13_OOP\Movie.cpp" Name="FileName"/>
-      <int Value="9" Name="FirstVisibleLine"/>
-      <int Value="33" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\shea\Documents\programming_work\C++Udemy\13_OOP\Movie.h" Name="FileName"/>
-      <int Value="15" Name="FirstVisibleLine"/>
-      <int Value="23" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\shea\Documents\programming_work\C++Udemy\9_ControllingProgramFlow\main.cpp" Name="FileName"/>
+      <wxString Value="C:\Users\shea\Documents\programming_work\C++Udemy\14_Challenge\main.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
+      <int Value="11" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\shea\Documents\programming_work\C++Udemy\VectorsArrays_S7\main.cpp" Name="FileName"/>
-      <int Value="3" Name="FirstVisibleLine"/>
+      <wxString Value="C:\Users\shea\Documents\programming_work\C++Udemy\14_Challenge\Mystring.cpp" Name="FileName"/>
+      <int Value="55" Name="FirstVisibleLine"/>
+      <int Value="73" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\shea\Documents\programming_work\C++Udemy\14_Challenge\Mystring.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="20" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\shea\Documents\programming_work\C++Udemy\14_OperatorOverloading\Mystring.cpp" Name="FileName"/>
+      <int Value="63" Name="FirstVisibleLine"/>
+      <int Value="76" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\shea\Documents\programming_work\C++Udemy\14_OperatorOverloading\Mystring.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
