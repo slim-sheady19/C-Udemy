@@ -42,7 +42,31 @@ Mystring::~Mystring() {
     delete [] str;
 }
 
- // Copy assignment
+// Display method
+void Mystring::display() const {
+    std::cout << str << " : " << get_length() << std::endl;
+}
+
+ // getters
+ int Mystring::get_length() const { return strlen(str); }
+ const char *Mystring::get_str() const { return str; }
+
+// overloaded insertion operator
+std::ostream &operator<<(std::ostream &os, const Mystring &rhs) {
+    os << rhs.str;
+    return os;
+}
+
+// overloaded extraction operator
+std::istream &operator>>(std::istream &in, Mystring &rhs) {
+    char *buff = new char[1000];
+    in >> buff;
+    rhs = Mystring{buff};
+    delete [] buff;
+    return in;
+}
+
+// Copy assignment
 Mystring &Mystring::operator=(const Mystring &rhs) {
 //    std::cout << "Using copy assignment" << std::endl;
 
@@ -70,7 +94,7 @@ Mystring Mystring::operator-() const
 {
 	std::cout << "Lowercase operator called" << std::endl;
 	char *buff = new char[std::strlen(str) + 1]; //create space on heap for the new array
-	std::strcpy(buff, str);
+	std::strcpy(buff, str); //copy str object into buff
 	for (size_t i{0}; i < std::strlen(buff); i++)
 	{
 		buff[i] = std::tolower(buff[i]);
@@ -80,6 +104,7 @@ Mystring Mystring::operator-() const
 	return temp;
 }
 
+//Concatenate
 Mystring Mystring::operator+(const Mystring &rhs) const
 {
 	char *buff = new char[std::strlen(str) + std::strlen(rhs.str) + 1]; //temporary object array of chars on heap with length of both strings
@@ -90,13 +115,18 @@ Mystring Mystring::operator+(const Mystring &rhs) const
 	return temp;
 }
 
+//Concatenate and assign
 Mystring &Mystring::operator+=(const Mystring &rhs)
 {
 	std::cout << "calling += operator" << std::endl;
 	std::strcat(str, rhs.str);
+	//ALTERNATE, make use of concatenate we already made above
+	//*this = *this + rhs;
+	//return *this;
 	
 }
 
+//repeat
 Mystring Mystring::operator*(const int n)
 {
 	char *buff = new char[std::strlen(str)*n + 1];
@@ -112,29 +142,18 @@ Mystring Mystring::operator*(const int n)
 	Mystring temp {buff};
 	delete [] buff;
 	return temp;
+	
+	/*MORE EFFICIENT WAY
+	 * Mystring temp;
+	 * for (int i {1} i<= n; i++)
+	 * temp = temp + *this;
+	 * return temp;
+	 */
 }
 
-// Display method
-void Mystring::display() const {
-    std::cout << str << " : " << get_length() << std::endl;
+//repeat and assign
+Mystring &Mystring::operator*=(int n)
+{
+	*this = *this * n; //take *this object, multiple it by n times and assign to itself
+	return *this;
 }
-
- // getters
- int Mystring::get_length() const { return strlen(str); }
- const char *Mystring::get_str() const { return str; }
-
-// overloaded insertion operator
-std::ostream &operator<<(std::ostream &os, const Mystring &rhs) {
-    os << rhs.str;
-    return os;
-}
-
-// overloaded extraction operator
-std::istream &operator>>(std::istream &in, Mystring &rhs) {
-    char *buff = new char[1000];
-    in >> buff;
-    rhs = Mystring{buff};
-    delete [] buff;
-    return in;
-}
-

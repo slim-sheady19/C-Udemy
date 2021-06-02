@@ -11,7 +11,9 @@
   <Project Name="12_PointersReferences" Path="12_PointersReferences/12_PointersReferences.project" Active="No"/>
   <Project Name="13_OOP" Path="13_OOP/13_OOP.project" Active="No"/>
   <Project Name="14_OperatorOverloading" Path="14_OperatorOverloading/14_OperatorOverloading.project" Active="No"/>
-  <Project Name="14_Challenge" Path="14_Challenge/14_Challenge.project" Active="Yes"/>
+  <Project Name="14_Challenge" Path="14_Challenge/14_Challenge.project" Active="No"/>
+  <Project Name="15_Inheritance" Path="15_Inheritance/15_Inheritance.project" Active="No"/>
+  <Project Name="15_Challenge" Path="15_Challenge/15_Challenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -27,6 +29,8 @@
       <Project Name="13_OOP" ConfigName="Debug"/>
       <Project Name="14_OperatorOverloading" ConfigName="Debug"/>
       <Project Name="14_Challenge" ConfigName="Debug"/>
+      <Project Name="15_Inheritance" ConfigName="Debug"/>
+      <Project Name="15_Challenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -42,6 +46,8 @@
       <Project Name="13_OOP" ConfigName="Release"/>
       <Project Name="14_OperatorOverloading" ConfigName="Release"/>
       <Project Name="14_Challenge" ConfigName="Release"/>
+      <Project Name="15_Inheritance" ConfigName="Release"/>
+      <Project Name="15_Challenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

@@ -23,7 +23,7 @@ int main() {
 	d += a;
 	cout << d << endl;
 	
-	Mystring e {c*5};
+	Mystring e {c*10};
 	cout << e << endl;
 	
 	
