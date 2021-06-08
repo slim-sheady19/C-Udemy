@@ -13,7 +13,9 @@
   <Project Name="14_OperatorOverloading" Path="14_OperatorOverloading/14_OperatorOverloading.project" Active="No"/>
   <Project Name="14_Challenge" Path="14_Challenge/14_Challenge.project" Active="No"/>
   <Project Name="15_Inheritance" Path="15_Inheritance/15_Inheritance.project" Active="No"/>
-  <Project Name="15_Challenge" Path="15_Challenge/15_Challenge.project" Active="Yes"/>
+  <Project Name="15_Challenge" Path="15_Challenge/15_Challenge.project" Active="No"/>
+  <Project Name="16_Polymorphism" Path="16_Polymorphism/16_Polymorphism.project" Active="No"/>
+  <Project Name="16_Challenge" Path="16_Challenge/16_Challenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -31,6 +33,8 @@
       <Project Name="14_Challenge" ConfigName="Debug"/>
       <Project Name="15_Inheritance" ConfigName="Debug"/>
       <Project Name="15_Challenge" ConfigName="Debug"/>
+      <Project Name="16_Polymorphism" ConfigName="Debug"/>
+      <Project Name="16_Challenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -48,6 +52,8 @@
       <Project Name="14_Challenge" ConfigName="Release"/>
       <Project Name="15_Inheritance" ConfigName="Release"/>
       <Project Name="15_Challenge" ConfigName="Release"/>
+      <Project Name="16_Polymorphism" ConfigName="Release"/>
+      <Project Name="16_Challenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
