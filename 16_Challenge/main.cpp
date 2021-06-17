@@ -60,6 +60,11 @@ int main()
 	
 	return 0;
 	
+	fruits [];
+	
+	
+	
+	
    
     //BELOW IS STATIC BINDING, REMOVED
 /*    // Savings 

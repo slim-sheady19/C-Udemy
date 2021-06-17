@@ -15,7 +15,9 @@
   <Project Name="15_Inheritance" Path="15_Inheritance/15_Inheritance.project" Active="No"/>
   <Project Name="15_Challenge" Path="15_Challenge/15_Challenge.project" Active="No"/>
   <Project Name="16_Polymorphism" Path="16_Polymorphism/16_Polymorphism.project" Active="No"/>
-  <Project Name="16_Challenge" Path="16_Challenge/16_Challenge.project" Active="Yes"/>
+  <Project Name="16_Challenge" Path="16_Challenge/16_Challenge.project" Active="No"/>
+  <Project Name="17_SmartPointers" Path="17_SmartPointers/17_SmartPointers.project" Active="No"/>
+  <Project Name="17_Challenge" Path="17_Challenge/17_Challenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -35,6 +37,8 @@
       <Project Name="15_Challenge" ConfigName="Debug"/>
       <Project Name="16_Polymorphism" ConfigName="Debug"/>
       <Project Name="16_Challenge" ConfigName="Debug"/>
+      <Project Name="17_SmartPointers" ConfigName="Debug"/>
+      <Project Name="17_Challenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -54,6 +58,8 @@
       <Project Name="15_Challenge" ConfigName="Release"/>
       <Project Name="16_Polymorphism" ConfigName="Release"/>
       <Project Name="16_Challenge" ConfigName="Release"/>
+      <Project Name="17_SmartPointers" ConfigName="Release"/>
+      <Project Name="17_Challenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
